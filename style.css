@@ -1,0 +1,92 @@
+
+
+body{
+	background-image: url(1.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 700px;
+}
+
+#logo{
+	padding-top: 20px;
+	text-align: center;
+	transition: transform .3s; /* Animation */
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+#logo:hover{
+	 transform: scale(1.5); /*150% zoom - Note: if the zoom is too large, it will go outside of the viewport */
+}
+
+.main-form{
+	text-align: center;
+	margin: 40px 400px;
+}
+
+#sign-up{
+	background-color: #051010;
+	opacity: .7;
+	padding-top: 20px;
+}
+
+#First-Name{
+	width: 250px;
+	padding: 10px;
+	border-radius: 5px;
+}
+#Last-Name{
+	width: 250px;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+#email{
+	width: 250px;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+#pass{
+	width: 250px;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+#country-code{
+	padding: 10px;
+	border-radius: 5px;
+}
+
+#phn-num{
+	width: 180px;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+#m{
+	color: white;
+	padding-right: 30px;
+}
+
+#f{
+	color: white;
+	padding-right: 30px;
+}
+
+#tc{
+	color: #828282;
+}
+
+#sub-button{
+	width: 180px;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: #bf80ff;
+}
+
+#sub-button:hover{
+	width: 180px;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: #8000ff;
+}
